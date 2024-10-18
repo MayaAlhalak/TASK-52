@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 18px;
+}
+.all {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: palevioletred;
+    width: fit-content;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 50px auto;
+}
+.one {
+    margin: 40px 0;
+}
+input {
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
+    color: rgb(107, 107, 230);
+}
+input::placeholder {
+    color: rgb(107, 107, 230);
+    font-size: 20px;
+}
+.select-one , .select-two {
+    height: 30px;
+    color:rgb(107, 107, 230) ;
+}
+.btn {
+    margin: 40px 0;
+    width: 350px;
+    height: 30px;
+    color: rgb(107, 107, 230);
+    font-size: 20px;
+}
+.result {
+    font-size: 25px;
+    margin: 0 5px;
+    color: rgb(107, 107, 230);
+}
+.change{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ p {
+    color: white;
+    font-size: 25px;
+}
