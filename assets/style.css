@@ -41,6 +41,8 @@ input::placeholder {
     margin: 40px 0;
     width: 350px;
     height: 30px;
+    background-color: white;
+    border: none;
     color: rgb(107, 107, 230);
     font-size: 20px;
 }

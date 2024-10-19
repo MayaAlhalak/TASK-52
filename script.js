@@ -7,7 +7,6 @@ const result = document.querySelector(".result")
 let x=0;
 btn.addEventListener('click', function(){
     if ( number.value.length >0){
-        console.log('number' , number.value);
         if (selectOne.value == 'mm' && selectTwo.value == 'cm'){
             x = number.value / 10;
             number.value = x;
@@ -92,7 +91,12 @@ btn.addEventListener('click', function(){
             x = number.value;
             number.value = x;
         }
+        result.innerHTML = x + selectTwo.value ;
+        number.value = '';
     }
-    result.innerHTML = x;
-    number.value = '';
+    else{
+        result.innerHTML = "please Enter number"
+    }
+   
+ 
 })
